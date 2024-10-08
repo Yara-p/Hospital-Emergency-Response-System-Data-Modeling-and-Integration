@@ -1,4 +1,5 @@
-# 🏥 Hospital-Emergency-Response-System-Data-Modeling-and-Integration
+# 🏥 Hospital Emergency Response System: Data Modeling and Integration
+
 ## Project Overview
 This project focuses on optimizing the **Hospital Emergency Response System (HERS)** by building a comprehensive data model that integrates various stages of emergency response. The system aims to address inefficiencies in current hospital emergency workflows by managing structured data effectively, from emergency calls to patient outcomes.
 
@@ -16,7 +17,7 @@ By implementing both **MySQL** for relational data and **MongoDB** for unstructu
    - Relationships between key entities such as **patients, paramedics, ambulance dispatch, treatments**, and **emergency calls** are established.
 
 2. **Relational Model Implementation (MySQL)**:
-   - Implemented a relational model in MySQL to support structured data processing.
+   - Implemented a relational model in MySQL to support structured data processing using DDL and DML commands.
    - Key queries include finding patient data, paramedic assessments, and treatment outcomes.
    - Example queries:
      - Aggregating patient conditions upon arrival
@@ -31,7 +32,6 @@ By implementing both **MySQL** for relational data and **MongoDB** for unstructu
 4. **Python Integration for Data Access and Visualization**:
    - **MySQL Connector** was used to retrieve data and generate visualizations in **Pandas** and **Matplotlib**.
    - Visualizations such as **ER treatment trends** and **disposition decisions** were created to identify key areas for resource optimization.
-
 
 ## 💻 How to Use
 1. Clone the repository:
